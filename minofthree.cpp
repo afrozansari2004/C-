@@ -1,14 +1,15 @@
 #include <iostream>
+using namespace std;
 int main()
 {
-    double num1, num2, num3;
-    std::cout << "Enter the first number: ";
-    std::cin >> num1;
-    std::cout << "Enter the second number: ";
-    std::cin >> num2;
-    std::cout << "Enter the third number: ";
-    std::cin >> num3;
-    double min = num1;
+    float num1, num2, num3;
+    cout << "Enter the first number: \n";
+    cin >> num1;
+    cout << "Enter the second number: \n";
+    cin >> num2;
+    cout << "Enter the third number: \n";
+    cin >> num3;
+    float min = num1;
     if (num2 < min)
     {
         min = num2;
@@ -17,6 +18,6 @@ int main()
     {
         min = num3;
     }
-    std::cout << "The minimum of the three numbers is: " << min << std::endl;
+    cout << "The minimum of three number is: " << min;
     return 0;
 }
